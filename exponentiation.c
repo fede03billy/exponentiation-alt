@@ -1,21 +1,21 @@
-/***
+/*** EXAMPLE ***
 r     <- 1
 a     <- 3
 b     <- 12
 
-r non viene modificato perché b è pari
+r is not modified because b is even
 a = a * a    <- 3 * 3     <- 9
 b = b / 2    <- 12 / 2    <- 6
 
-r non viene modificato perché b è ancora pari
+r is not modified because b is still even
 a = a * a    <- 9 * 9    <- 81
 b = b / 2    <- 6 / 2    <- 3
 
-r = r * a    <- 1 * 81     <- 81 (in questo caso b è dispari)
+r = r * a    <- 1 * 81     <- 81 (in this case b is odd)
 a = a * a    <- 81 * 81    <- 6,561
 b = b / 2    <- 3 / 2      <- 1
 
-r = r * a    <- 81 * 6,561       <- 531,441 (in questo caso b è dispari)
+r = r * a    <- 81 * 6,561       <- 531,441 (in this case b is odd)
 a = a * a    <- 6,561 * 6,561    <- 43,046,721
 b = b / 2    <- 1 / 2            <- 0
 ***/
